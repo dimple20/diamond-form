@@ -18,7 +18,7 @@
                   label-for="input-1"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-1"
                         placeholder="Your Company Name"
@@ -32,7 +32,7 @@
                         Name of hotel is required.
                       </b-form-invalid-feedback>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div>
                         <div>
                           <b-icon
@@ -52,14 +52,14 @@
                   label-for="input-2"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-2"
                         v-model="userDetails.director"
                         placeholder="Full Name Of Director"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <!-- <b-icon icon="check2" class="h2 text-success"></b-icon> -->
@@ -79,7 +79,7 @@
                   label-for="input-3"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-3"
                         v-model="userDetails.firstName"
@@ -87,7 +87,7 @@
                         placeholder="First Name"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <b-icon
@@ -107,7 +107,7 @@
                   label-for="input-4"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-4"
                         v-model="userDetails.lastName"
@@ -115,7 +115,7 @@
                         placeholder="Last Name"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <b-icon
@@ -135,14 +135,14 @@
                   label-for="input-5"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-5"
                         v-model="userDetails.email"
                         placeholder="Email Address"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <b-icon
@@ -162,7 +162,7 @@
                   label-for="input-6"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-6"
                         v-model="userDetails.phone"
@@ -170,7 +170,7 @@
                         placeholder="Enter Phone No"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <b-icon
@@ -190,7 +190,7 @@
                   label-for="input-7"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-7"
                         v-model="userDetails.address"
@@ -198,7 +198,7 @@
                         placeholder="Enter Address"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <b-icon
@@ -218,7 +218,7 @@
                   label-for="input-8"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-8"
                         v-model="userDetails.bankName"
@@ -226,7 +226,7 @@
                         placeholder="Enter Bank Name"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <!-- <b-icon icon="check2" class="h2 text-success"></b-icon> -->
@@ -245,14 +245,14 @@
                   label-for="input-8"
                 >
                   <b-row>
-                    <b-col md="11">
+                    <b-col md="11" cols="10">
                       <b-form-input
                         id="input-8"
                         v-model="userDetails.accountNumber"
                         placeholder="Enter Account Number"
                       ></b-form-input>
                     </b-col>
-                    <b-col md="1">
+                    <b-col md="1" cols="2">
                       <div class="mx-auto">
                         <div>
                           <!-- <b-icon icon="check2" class="h2 text-success"></b-icon> -->
